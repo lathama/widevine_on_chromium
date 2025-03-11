@@ -8,8 +8,12 @@ If you want to watch videos from Netflix or other Widevine sources you need the 
 
 Chromium being the base for Google Chrome makes this easy by simply making the libraries availible in an expected place.
 
-Get latest download url + version from https://www.ubuntuupdates.org/package/google_chrome/stable/main/base/google-chrome-stable
-Download http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_134.0.6998.88-1_amd64.deb
+### Debian
+
+- Get latest download url + version from
+   - https://www.ubuntuupdates.org/package/google_chrome/stable/main/base/google-chrome-stable
+- Download package
+   - http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_134.0.6998.88-1_amd64.deb
 
 In this example
 1. As root go to the src dir
