@@ -13,7 +13,7 @@ Chromium being the base for Google Chrome makes this easy by simply making the l
 - Get latest download url + version from
    - https://www.ubuntuupdates.org/package/google_chrome/stable/main/base/google-chrome-stable
 - Download package
-   - http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_134.0.6998.88-1_amd64.deb
+   - http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_138.0.7204.92-1_amd64.deb
 
 In this example
 1. As root go to the src dir
@@ -24,8 +24,8 @@ In this example
 
 ```
 cd /usr/src/
-wget http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_134.0.6998.88-1_amd64.deb
-dpkg-deb -x google-chrome-stable/google-chrome-stable_134.0.6998.88-1_amd64.deb .
+wget http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_138.0.7204.92-1_amd64.deb
+dpkg-deb -x google-chrome-stable/google-chrome-stable_138.0.7204.92-1_amd64.deb .
 ls opt/google/chrome/WidevineCdm/
 LICENSE  manifest.json  _platform_specific
 cp -r opt/google/chrome/WidevineCdm /usr/lib/chromium/
@@ -34,3 +34,10 @@ ps faxu | grep -i chrom
 
 ## Resources
 - https://integration.widevine.com/diagnostics
+
+
+## Thanks
+
+If you find this useful and want to say thanks I have options at:
+
+- https://lathama.net/Thanks
