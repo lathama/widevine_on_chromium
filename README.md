@@ -5,7 +5,7 @@ Install Widevine on Chromium for Debian based systems.
 ## Introduction
 
 Widevine is the DRM tool used by services like Netflix, Hulu, Amazon, and
-Google to protect thier content. On Linux it is sometimes annoying to install
+Google to protect their content. On Linux it is sometimes annoying to install
 Chrome just for the Widevine so here is an option, add it to Chromium.
 
 Chromium is the open source base for Chrome so it looks for the WidevineCdm for
@@ -38,7 +38,7 @@ I tested with a movie on Youtube but I guess one could use https://integration.w
 
 Tested on Debian 13
 
-## Usage
+### Usage
 
 The script does all the steps manually for you.
 
@@ -50,3 +50,12 @@ Unpack the package
 Copy Widevine files to Chromium
 Done!
 ```
+
+## Upgrades
+
+From time to time it will be required to upgrade Widevine. The modern release
+updates certs on its own but does have a limit with "minimum_chrome_version" as
+found in the "/usr/lib/chromium/WidevineCdm/manifest.json".
+
+From my use I would say that once a year is likely going to be fine to rerun
+the script.
