@@ -27,7 +27,7 @@ cp -r opt/google/chrome/WidevineCdm /usr/lib/chromium/
 
 ## Testing
 
-I tested with a movie on Youtube but I guess one could use https://integration.widevine.com/jasmine_tests for testing.
+I tested with a movie on Youtube but I guess one could use https://partner.widevine.com/player for testing.
 
 ## The Script
 

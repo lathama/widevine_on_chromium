@@ -7,6 +7,11 @@
 # "stable" and "main" are the client is configuration
 # "binary-amd64" is the architecture aka CPU
 
+if (( EUID != 0 )); then
+    echo "Root or SUDO required to install widevine libs." 1>&2
+    exit 1
+fi
+
 # Variables
 ARCH="amd64"
 DOWNLOAD_URI=""
